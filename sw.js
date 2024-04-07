@@ -12,7 +12,7 @@ self.addEventListener('install', e=>{
         .then(cache=>{
 
             cache.addAll([
-                '/',
+                //'/',
                 '/index.html',
                 '/js/app.js',
                 '/js/base.js'
